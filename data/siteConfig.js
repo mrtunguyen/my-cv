@@ -50,7 +50,7 @@ module.exports = {
     {
       company: "BNP Paribas Cardif",
       begin: {
-        month: 'April',
+        month: 'Apr',
         year: '2018'
       },
       duration: '2 yrs and 6 months',
