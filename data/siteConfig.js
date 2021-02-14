@@ -1,103 +1,126 @@
 module.exports = {
   siteTitle: 'Hi! I\'m Thanh Tu NGUYEN!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `My curriculum`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Machine Learning engineer/Data Scientist, passionate about what I do.`,
+  authorName: 'Thanh Tu NGUYEN',
+  twitterUsername: 'thanhtu19392',
+  githubUsername: 'mrtunguyen',
+  authorAvatar: '/images/photo.jpeg',
+  authorDescription: `Machine Learning engineer/Data Scientist, passionate about what I do. Love solving real-world problems, developing new products. Technical dicussion and Kaggle lover.`,
   skills: [
     {
-      name: 'HTML',
-      level: 70
+      name: 'Python',
+      level: 100
     },
-    {
-      name: 'CSS',
-      level: 60
+    { 
+      name: 'Tensorflow, Pytorch',
+      level: 80
     },
     {
       name: 'Javascript',
       level: 50
     },
     {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
       name: 'React',
       level: 60
     },
     {
-      name: 'Git',
-      level: 70
+      name: 'Git, Docker',
+      level: 80
+    },
+    {
+      name: 'HTML/CSS',
+      level: 60
     },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "BNP Paribas Cardif",
       begin: {
-        month: 'sep',
-        year: '2019'
+        month: 'Jan',
+        year: '2020'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+      occupation: "NLP Data Scientist",
+      description: "I am part of the NLP team, responsible for the R&D and production of the NLP projects, such as speech-to-text, search, automatic audit, text classification."
   
-    },  {
-      company: "Lendico",
+    },
+    {
+      company: "BNP Paribas Cardif",
       begin: {
-        month: 'apr',
+        month: 'April',
         year: '2018'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '2 yrs and 6 months',
+      occupation: "Computer Vision Data Scientist",
+      description: "I am part of the Computer Vision team, responsible for the the R&D and production of optical character recognition project which convert 5M images (photos, scanned images...) of insurance documents in different languages into text and text comprehension."
+  
+    },  {
+      company: "La Javaness",
+      begin: {
+        month: 'June',
+        year: '2017'
+      },
+      duration: '3 months',
+      occupation: "Data Scientist",
+      description: "I integrate the team responsible for predicting price of sales promotion on specified items and specified clients."
   
     }, {
-      company: "Anapro",
+      company: "ANOVA Funds Investment",
       begin: {
-        month: 'dec',
+        month: 'Jan',
+        year: '2017'
+      },
+      duration: '5 months',
+      occupation: "Porfolio Manager Assistant",
+      description: "Monitoring cash flows, cash balances and calculating Net Asset Value of fund.  \
+                    Implementing investment decisions taking into account cash, investment guidelines, benchmarks and fund sizes"
+    }, {
+      company: "Societe Generale",
+      begin: {
+        month: 'June',
         year: '2016'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '6 months',
+      occupation: "Market Risk Analyst",
+      description: "Pricing vanilla and exotic options, derivatives products (Swap, Equity) and anticipate PnL impacts over funding (FVA) and counterparty risk (CVA). \
+                    Compute PnL and Risk Analysis impacts for Front Office (Trading, CVA desk, sales, CORI) through LIBOR and OIS discounting."
+  
     }, {
-      company: "Anapro",
+      company: "Banque de France",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'June',
+        year: '2013'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '3 months',
+      occupation: "Financial Analyst",
+      description: "Extract data from various accounting information systems and financial analysis (liquidity, financial structure, financial autonomy)."
   
     },
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      image: "/images/kaggle.png",
+      description: "Kaggle competition Predicting molecular propreties",
+      url: "https://github.com/mrtunguyen/Kaggle_predicting_molecular_properties"
     },
     {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      image: "/images/blog.png",
+      description: "My technical blog",
+      url: "https://github.com/mrtunguyen/blog"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/thanhtu19392",
+    linkedin: "https://www.linkedin.com/in/thanh-tu/",
+    github: "https://github.com/mrtunguyen",
+    email: "thanhtu19392@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://github.com/mrtunguyen/my-cv',
+  pathPrefix: '/mrtunguyen-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
